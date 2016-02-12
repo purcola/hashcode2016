@@ -4,6 +4,7 @@ The problem statement is in the [delivery file](delivery.pdf).
 You just have to execute the [run.sh](run.sh) script to compile and execute the code for the input files of the contest.
 It will generate the corresponding output files in the **output** folder.
 
+The code finally submitted to the contest during the *online qualification round* is under the **contest** tag. Other versions were coded during the *extended run* just for fun.
 
 Enjoy
 
