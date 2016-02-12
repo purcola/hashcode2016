@@ -5,8 +5,8 @@ You just have to execute the [run.sh](run.sh) script to compile and execute the 
 It will generate the corresponding output files in the **output** folder.
 
 
-
 Enjoy
 
 the RoPeRT team
-[purcola](https://github.com/purcola), [lriazuelo](https://github.com/lriazuelo), [dantard](https://github.com/dantard),
+
+[purcola](https://github.com/purcola), [lriazuelo](https://github.com/lriazuelo), [dantard](https://github.com/dantard) and Dome
