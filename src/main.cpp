@@ -286,7 +286,7 @@ int main(int argc, char * argv[])
         task_cost += cost(warehouses[w], orders[tasks[t].order]) + 1;
 
         if (steps[d] + task_cost >= turns)
-            break;
+            continue;
         steps[d] += task_cost;
 
         oss << d << ' ' << 'L' << ' ' << w << ' ' <<  tasks[t].product << ' ' << n << std::endl;
