@@ -9,4 +9,4 @@ Enjoy
 
 the RoPeRT team
 
-[purcola](https://github.com/purcola), [lriazuelo](https://github.com/lriazuelo), [dantard](https://github.com/dantard) and Dome
+[purcola](https://github.com/purcola), [lriazuelo](https://github.com/lriazuelo), [dantard](https://github.com/dantard) and [domesici](https://github.com/domesici)
