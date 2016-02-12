@@ -5,7 +5,7 @@
  * Authors: Luis Riazuelo, Domenico Sicignano, Danilo Tardioli, Pablo Urcola (team leader)
  *
  * Date: 11/03/2016
- * 
+ *
  */
 
 #include <vector>
@@ -42,6 +42,7 @@ public:
     static int max_payload;
     int x, y;
     std::vector<int> load; //load[i] = nº de productos del tipo i
+    //int steps;
 };
 
 
@@ -257,7 +258,15 @@ int main(int argc, char * argv[])
         }
     }
 
-      std::ostringstream oss;
+    //init drone poses
+    for (int d = 0; d < drones.size(); ++d)
+    {
+        drones[d].x = warehouses.front().x;
+        drones[d].y = warehouses.front().y;
+    }
+
+
+    std::ostringstream oss;
     //std::cout << 2*tasks.size() << std::endl;
     int n_tasks;
 
